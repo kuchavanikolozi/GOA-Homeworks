@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        /* მშობელი ელემენტი: 300px სიგანე და 200px სიმაღლე */
+        .parent {
+            width: 300px;
+            height: 200px;
+            background-color: lightblue;
+            position: relative; /* საჭირო არის შვილი ელემენტის განთავსებისთვის */
+        }
+
+        /* ჩაშენებული ელემენტი: მშობელის ელემენტის 50% სიგანე და 100px სიმაღლე */
+        .child {
+            width: 50%; /* მშვენიერი ელემენტის 50% სიგანე */
+            height: 100px;
+            background-color:brown
+            position: absolute; /* განთავსება მშობელის ელემენტის შიგნით */
+            top: 50%; /* მშობელი ელემენტის შუაში განთავსება */
+            left: 50%; /* მშობელი ელემენტის შუაში განთავსება */
+            transform: translate(-50%, -50%); /* ცენტრალური განთავსება */
+        }
+    </style>
+</head>
+<body>
+    <!-- მშვენიერი ელემენტი -->
+    <div class="parent">
+        <!-- ჩაშენებული ელემენტი -->
+        <div class="child">ჩაშენებული ელემენტი</div>
+    </div>
+</body>
+</html>

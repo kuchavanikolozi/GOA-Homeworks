@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <style>
+        /* 
+        'px' (პიქსელი) არის ფიქსირებული ზომა. 
+        მაგალითად, 'width: 100px;' ნიშნავს, რომ ელემენტი სიგანე ყოველთვის 100 პიქსელია, რაც არ იცვლება.
+        */
+        .fixed-size {
+            width: 100px;
+            height: 50px;
+            background-color: lightblue;
+        }
+
+        /* 
+        '%' (პროცენტი) არის ზომა, რომელიც დამოკიდებულია მშვენიერი ელემენტის ზომაზე.
+        მაგალითად, 'width: 50%;' ნიშნავს, რომ ელემენტის სიგანე მშვენიერი ელემენტის სიგანის ნახევარია.
+        */
+        .relative-size {
+            width: 50%;
+            height: 50px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    ქვემოთ მოცემულია ორი ელემენტი, რომლებიც განსხვავებულ საზომი ერთეულებს იყენებენ:
+    .fixed-size: სიგანე 100px და სიმაღლე 50px.
+    .relative-size: სიგანე მშვენიერი ელემენტის სიგანის 50% და სიმაღლე 50px.
+    -->
+    <div class="fixed-size">პიქსელი ზომა</div>
+    <div class="relative-size">პროცენტი ზომა</div>
+</body>
+</html>

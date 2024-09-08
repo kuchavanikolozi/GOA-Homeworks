@@ -1,0 +1,9 @@
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #e6e6fa;
+    border: 1px solid #ccc;
+}
+.content p {
+    font-size: 18px;
+}

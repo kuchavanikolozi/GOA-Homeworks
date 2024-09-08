@@ -1,0 +1,10 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    color: cadetblue;
+}
+
+article nav a{
+    color: blue;
+}
