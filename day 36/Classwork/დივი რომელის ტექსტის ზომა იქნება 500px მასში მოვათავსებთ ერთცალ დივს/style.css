@@ -1,0 +1,28 @@
+/* მთავარი Div */
+.main-div {
+    width: 500px;
+    height: 500px;
+    font-size: 500px; /* ტექსტის ზომა მთავარი Div - ისთვის */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    border: 2px solid #000;
+}
+
+/* შიდა Div */
+.inner-div {
+    width: 25%; /* 500px-ის 25% არის 125px */
+    height: 25%; /* 500px-ის 25% არის 125px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 200, 200);
+    border: 2px solid #333;
+}
+
+.inner-paragraph {
+    font-size: 50%; /* 125px-ის 50% = 62.5px */
+    text-align: center;
+    color: #333;
+}

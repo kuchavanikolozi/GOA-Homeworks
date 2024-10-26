@@ -1,0 +1,29 @@
+/* მთავარი Div */
+.main-div {
+    width: 70%; /* ეკრანის 70% */
+    height: 300px; /* სიმაღლე დასამართად */
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+/* შიდა დივი */
+.inner-div {
+    width: 50%; /* მთავარი დივის 50% */
+    height: 150px; /* სიმაღლე დასამართად */
+    background-color: rgb(180, 180, 180);
+    font-size: 100px; /* ტექსტის ზომა 100px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #666;
+}
+
+/* შიდა პარაგრაფი */
+.inner-paragraph {
+    font-size: 20%; /* 100px-ის 20% არის 20px */
+    color: #333;
+    text-align: center;
+}

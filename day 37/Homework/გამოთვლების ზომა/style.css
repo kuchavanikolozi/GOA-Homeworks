@@ -1,0 +1,17 @@
+/* მთავარი Div*/
+.main-div {
+    width: 1000px; /* სიგანე */
+    height: 1000px; /* სიმაღლე */
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+}
+
+/* შიდა ფოტო */
+.inner-image {
+    width: 12.5%; /* 1000px-ის 1/2 × 1/2 × 1/2 = 12.5% */
+    height: 12.5%; /* 1000px-ის 1/2 × 1/2 × 1/2 = 12.5% */
+    border: 1px solid #666;
+}

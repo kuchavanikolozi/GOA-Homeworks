@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 20px;
+}
+
+.cube {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(200, 230, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+    padding: 5px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <!-- პირველი კუბი -->
+        <div class="cube">
+            <img src="img1.jpg" alt="Placeholder Image 1">
+            <button onclick="window.location.href='https://www.facebook.com/nika.kuchi2008'">Example</button>
+            <input type="text" placeholder="Type something">
+        </div>
+        
+        <!-- მეორე კუბი -->
+        <div class="cube">
+            <img src="img2.jpg" alt="Placeholder Image 2">
+            <button onclick="window.location.href='https://www.intagram.com/nikolozi_kutchava'">Visit Another Site</button>
+            <input type="number" placeholder="Enter a number">
+        </div>
+
+        <!-- მესამე კუბი -->
+        <div class="cube">
+            <img src="img3.jpg" alt="Placeholder Image 3">
+            <button onclick="window.location.href='https://www.bandlab.com/damnkuchava'">See More</button>
+            <input type="email" placeholder="Your email">
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+.outer-div {
+    height: 700px;
+    width: 1000px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-div {
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+}
