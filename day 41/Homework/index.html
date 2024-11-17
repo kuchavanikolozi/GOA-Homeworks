@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 2) :link - არასდროს დაჭერილი ლინკების ფერი ლურჯი */
+        a:link {
+            color: blue;
+        }
+
+        /* 3) :visited - უკვე მონახულებული ლინკების ფერი იასამნისფერი */
+        a:visited {
+            color: purple;
+        }
+
+        /* 4) :hover - მაუსის გადატარებისას ტექსტისა და ფონური ფერის შეცვლა */
+        a:hover {
+            color: white;
+            background-color: gray;
+        }
+
+        /* 5) :active - ლინკზე დაჭერის მომენტში background და ტექსტის ზომის შეცვლა */
+        a:active {
+            background-color: darkgray;
+            font-size: 1.2em;
+        }
+
+        /* 6) შავი ლინკი, რომელიც hover-ზე მუქი ნაცრისფერი ხდება */
+        a.black-link {
+            color: black;
+            text-decoration: none; /* ხაზგასმის გამორთვა */
+        }
+
+        a.black-link:hover {
+            color: darkgray;
+        }
+
+        /* 7) ლინკები, რომლებიც hover მდგომარეობაში მიიღებენ ხაზგასმას */
+        a.underline-hover {
+            text-decoration: none; /* ნორმალურ მდგომარეობაში ხაზგასმა გამორთულია */
+        }
+
+        a.underline-hover:hover {
+            text-decoration: underline; /* hover მდგომარეობაში ხაზგასმა ჩართულია */
+        }
+    </style>
+</head>
+<body>
+    <h1>Links Examples</h1>
+    
+    <!-- არასდროს დაჭერილი ლინკი -->
+    <p><a href="https://example.com" target="_blank">ეს არის არასდროს დაჭერილი ლინკი</a></p>
+    
+    <!-- უკვე მონახულებული ლინკი -->
+    <p><a href="https://example.com" target="_blank">ეს არის უკვე მონახულებული ლინკი</a></p>
+    
+    <!-- მაუსის გადატარებისას ტექსტისა და ფონური ფერის შეცვლა -->
+    <p><a href="https://example.com" target="_blank">გადატარე მაუსი ამ ლინკზე</a></p>
+    
+    <!-- ლინკზე დაჭერის მომენტში background და ტექსტის ზომის შეცვლა -->
+    <p><a href="https://example.com" target="_blank">დაჭერი ლინკზე</a></p>
+    
+    <!-- შავი ლინკი, რომელიც hover-ზე მუქი ნაცრისფერი ხდება -->
+    <p><a href="https://example.com" target="_blank" class="black-link">შავი ლინკი, რომელიც hover-ზე ნაცრისფერი ხდება</a></p>
+    
+    <!-- ლინკები, რომლებიც hover მდგომარეობაში მიიღებენ ხაზგასმას -->
+    <p><a href="https://example.com" target="_blank" class="underline-hover">ლინკი ხაზგასმით hover-ზე</a></p>
+</body>
+</html>
