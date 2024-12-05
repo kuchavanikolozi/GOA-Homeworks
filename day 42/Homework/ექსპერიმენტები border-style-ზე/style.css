@@ -1,0 +1,19 @@
+.solid { 
+    border: 2px solid black; 
+}
+
+.dotted { 
+    border: 2px dotted black; 
+}
+
+.dashed { 
+    border: 2px dashed black; 
+}
+
+.double { 
+    border: 4px double black; 
+}
+
+.groove { 
+    border: 4px groove black; 
+}

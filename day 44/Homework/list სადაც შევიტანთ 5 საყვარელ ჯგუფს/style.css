@@ -1,0 +1,27 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff5733;
+}
+
+ol {
+    list-style-type: upper-roman;
+    margin: 20px auto;
+    padding: 0;
+    width: 300px;
+    background-color: #fff;
+    border: 2px solid #ff5733;
+    border-radius: 10px;
+}
+
+ol li {
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+}
