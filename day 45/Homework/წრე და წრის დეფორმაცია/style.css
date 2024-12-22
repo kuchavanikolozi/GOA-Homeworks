@@ -1,0 +1,69 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+.item {
+    display: inline-block;
+    margin: 20px;
+}
+
+.shape {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.lemon {
+    width: 100px;
+    height: 70px;
+    background-color: yellow;
+    border: 2px solid orange;
+    border-radius: 50% / 35%;
+}
+
+.strawberry {
+    width: 80px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50% 50% 30% 30%;
+}
+
+.eggplant {
+    width: 50px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 25px;
+}
+
+.bmw {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.bmw-inner {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.bmw-text {
+    color: blue;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    line-height: 100px;
+}

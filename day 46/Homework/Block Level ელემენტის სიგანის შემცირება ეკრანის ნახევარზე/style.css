@@ -1,0 +1,7 @@
+.block {
+    width: 50%;
+    margin: 0 auto;
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: center;
+}

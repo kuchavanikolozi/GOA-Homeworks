@@ -1,0 +1,73 @@
+FlexBox Froggy  https://flexboxfroggy.com/
+
+lvl1
+
+#pond {
+    display: flex;
+    justify-content: flex-end;
+}
+
+lvl2
+
+#pond {
+display: flex;
+justify-content: center;
+}
+
+lvl3
+
+#pond {
+display: flex;
+justify-content: space-around;
+}
+
+lvl4
+
+#pond {
+display: flex;
+justify-content: space-between;
+}
+
+lvl5
+
+#pond {
+display: flex;
+align-items: flex-end;
+}
+
+lvl6
+
+#pond {
+display: flex;
+justify-content:space-around;
+align-items:center;
+}
+
+lvl7
+
+#pond {
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+}
+
+lvl8
+
+#pond {
+display: flex;
+flex-direction: row-reverse;
+}
+
+lvl9
+
+#pond {
+display: flex;
+flex-direction: column;
+}
+
+lvl10
+
+pond {
+flex-direction: row-reverse;
+justify-content: flex-end;
+}

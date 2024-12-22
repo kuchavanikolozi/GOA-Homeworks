@@ -1,0 +1,30 @@
+input[type="text"] {
+    border: 2px solid blue;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="password"] {
+    border: 2px dashed green;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="email"] {
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+}
+
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: inline-block;
+}
