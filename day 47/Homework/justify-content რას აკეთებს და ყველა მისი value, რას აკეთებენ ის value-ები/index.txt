@@ -1,0 +1,43 @@
+justify-content არის CSS-ის თვისება, რომელიც განსაზღვრავს, თუ როგორ უნდა განლაგდეს flex container-ის შიგთავსი ძირითადი ღერძის გასწვრივ.
+
+.container {
+    display: flex;
+    justify-content: flex-start; 
+    
+    ელემენტები განლაგებულია ღერძის დასაწყისში (მარცხნივ თუ ღერძი ჰორიზონტალურია).
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+
+    ელემენტები განლაგებულია ღერძის ბოლოში (მარჯვნივ თუ ღერძი ჰორიზონტალურია).
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    ელემენტები განლაგებულია ღერძის ცენტრში.
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+    ელემენტებს შორის თანაბარი დაშორებაა, მაგრამ პირველი ელემენტი დასაწყისშია და ბოლო კი ბოლოში.
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+    ელემენტებს შორის დაშორება თანაბარია, მაგრამ კიდეების გარეთაც დამატებითი სივრცე წარმოიქმნება.
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+
+    ელემენტებს შორის დაშორება თანაბარია, და სივრცეები კიდეების გარეთაც ზუსტად იგივე ზომისაა.
+}
