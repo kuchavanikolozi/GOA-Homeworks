@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+  }
+
+  .icon-container {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .icon {
+    font-size: 36px;
+    color: greenyellow;
+    transition: transform 0.3s, color 0.3s;
+  }
+
+  .icon:hover {
+    transform: scale(1.2);
+    color: #007bff;
+  }
