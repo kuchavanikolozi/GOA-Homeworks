@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    width: 39%;
+}
+
+.perfume {
+    margin-bottom: 145px;
+}
+
+.sunamo {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    padding: 15px;
+}
+
+img {
+    width: 16rem;
+    border-radius: 10px 0px 0px 10px;
+}
+
+h2 {
+    text-align: left;
+    padding: 15px;
+    font-family: "Fraunces", serif;
+}
+
+.product-description {
+    color: hsl(228, 12%, 48%);
+    padding: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    font-size: 14px;
+}
