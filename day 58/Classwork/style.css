@@ -1,0 +1,15 @@
+.color-box {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    animation: changeColor 2s linear forwards;
+  }
+
+  @keyframes changeColor {
+    from {
+      background-color: red;
+    }
+    to {
+      background-color: blue;
+    }
+}

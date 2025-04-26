@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 60px;
+    color: #333;
+    transition:
+      transform 0.5s ease,
+      color 0.4s ease;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.arrow:hover {
+    transform:
+      scale(1.5)
+      translate(-100px, -50px)
+      rotateX(180deg)
+      rotateY(360deg);
+    color: #007bff;
+    transition:
+      transform 0.5s ease,
+      color 0.4s ease;
+}
+
+.arrow:active {
+    transform: rotate(-1040deg);
+    color: #9b59b6;
+    transition:
+      transform 0.7s ease,
+      color 0.4s ease;
+}

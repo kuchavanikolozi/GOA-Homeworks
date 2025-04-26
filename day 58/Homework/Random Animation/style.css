@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.sky {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, #1e3c72, #2a5298);
+    animation: skyTransition 10s linear infinite alternate;
+    position: relative;
+}
+
+.sun {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #FFD700, #FFA500);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px;
+    left: -100px;
+    animation: sunRise 10s linear infinite alternate;
+}
+
+@keyframes sunRise {
+    0% {
+      bottom: -50px;
+      left: -100px;
+    }
+    50% {
+      bottom: 200px;
+      left: 50vw;
+    }
+    100% {
+      bottom: 100px;
+      left: 100vw;
+    }
+}
+
+@keyframes skyTransition {
+    0% {
+      background: linear-gradient(to top, #1e3c72, #2a5298);
+    }
+    100% {
+      background: linear-gradient(to top, #87ceeb, #f0e68c);
+    }
+}

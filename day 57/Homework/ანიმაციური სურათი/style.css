@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    perspective: 1000px;
+}
+
+.animated-image {
+    width: 300px;
+    height: auto;
+    transition: transform 0.8s ease, left 0.8s ease, top 0.8s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.animated-image:hover {
+    transform: translate(500px, 300px) rotateX(360deg);
+}
+
+.animated-image:active {
+    transform: scale(0.7) rotate(-90deg);
+}
